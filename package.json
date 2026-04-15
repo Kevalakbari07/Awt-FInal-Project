@@ -1,0 +1,36 @@
+{
+<<<<<<< HEAD
+  "dependencies": {
+    "dns": "^0.2.2"
+=======
+  "name": "dairy-backend",
+  "version": "1.0.0",
+  "description": "Dairy Management System Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "dairy",
+    "management",
+    "system",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+>>>>>>> d923e8cd318a4a0c0ef00e9358715122f93a832b
+  }
+}
